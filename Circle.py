@@ -19,4 +19,4 @@ class Circle(Shape2D):
 
     def getShapeProperties(self):
         return f"Shape: CIRCLE, Color: {self.color}, Radius: {self.radius}, " \
-               f"Area: {self.computeArea()}, Perimiter: {self.computePerimeter()}"
+               f"Area: {self.computeArea()}, Perimeter: {self.computePerimeter()}"

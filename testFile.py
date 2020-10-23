@@ -26,10 +26,10 @@ class TestCircle:
         
     def testgetShapeProperties(self):
         assert self.A.getShapeProperties() == f"Shape: CIRCLE, Color: {self.A.color}, Radius: {self.A.radius}, " \
-               f"Area: {self.A.computeArea()}, Perimiter: {self.A.computePerimeter()}"
+               f"Area: {self.A.computeArea()}, Perimeter: {self.A.computePerimeter()}"
         
         assert self.B.getShapeProperties() == f"Shape: CIRCLE, Color: {self.B.color}, Radius: {self.B.radius}, " \
-               f"Area: {self.B.computeArea()}, Perimiter: {self.B.computePerimeter()}"
+               f"Area: {self.B.computeArea()}, Perimeter: {self.B.computePerimeter()}"
 
     def testsetColor(self):
         self.A.setColor("magenta")
@@ -63,10 +63,10 @@ class TestSquare:
 
     def testgetShapeProperties(self):
         assert self.A.getShapeProperties() == f"Shape: SQUARE, Color: {self.A.color}, Side: {self.A.side}, " \
-                                              f"Area: {self.A.computeArea()}, Perimiter: {self.A.computePerimeter()}"
+                                              f"Area: {self.A.computeArea()}, Perimeter: {self.A.computePerimeter()}"
 
         assert self.B.getShapeProperties() == f"Shape: SQUARE, Color: {self.B.color}, Side: {self.B.side}, " \
-                                              f"Area: {self.B.computeArea()}, Perimiter: {self.B.computePerimeter()}"
+                                              f"Area: {self.B.computeArea()}, Perimeter: {self.B.computePerimeter()}"
 
     def testsetColor(self):
         self.A.setColor("magenta")

@@ -19,4 +19,4 @@ class Square(Shape2D):
 
     def getShapeProperties(self):
         return f"Shape: SQUARE, Color: {self.color}, Side: {self.side}, " \
-               f"Area: {self.computeArea()}, Perimiter: {self.computePerimeter()}"
+               f"Area: {self.computeArea()}, Perimeter: {self.computePerimeter()}"
